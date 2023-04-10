@@ -52,8 +52,8 @@ if [[ $sleep_disabled == "0" ]]; then
     status="caffeinating... ☕️"
   else
     if [[ "_$sleep_prevented" != "_" ]] ; then
-      echo '♨️'
-      status="♨️ Sleep prevented by application(s):"
+      echo '♻️'
+      status="♻️ Sleep prevented by application(s):"
     else
       echo "🔋"
       status="💤 Sleeping normally"
